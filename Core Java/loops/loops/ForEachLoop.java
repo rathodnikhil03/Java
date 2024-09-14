@@ -1,3 +1,4 @@
+package loops;
 class info{
 
     String name_of_student;

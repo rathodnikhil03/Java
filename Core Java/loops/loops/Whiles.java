@@ -1,3 +1,4 @@
+package loops;
 public class Whiles
 {
     public static void main(String []a)

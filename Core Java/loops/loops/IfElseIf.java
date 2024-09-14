@@ -1,4 +1,5 @@
-public class ifelseif {
+package loops;
+public class IfElseIf {
 
     public static void main(String[] args) {
         

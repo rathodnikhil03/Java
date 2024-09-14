@@ -1,4 +1,5 @@
-public class ifelse {
+package loops;
+public class IfElse {
     public static void main(String[] args) {
         
         int x = 18;

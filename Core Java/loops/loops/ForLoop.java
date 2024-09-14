@@ -1,4 +1,5 @@
-public class forloop {
+package loops;
+public class ForLoop {
     public static void main(String []arg){
 
         for(int i=1;i<=4;i++){     // (int i=4;i>=4;i--) inner loop means nested loop
