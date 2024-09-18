@@ -1,3 +1,4 @@
+package methods;
 class A{
 
      public void show(){
