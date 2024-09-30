@@ -1,3 +1,7 @@
+//User Threads (also known as Foreground Threads) :- 
+//These threads are created and managed by the user (developer) and are responsible for executing a specific task. 
+//They are also known as foreground threads because they are in the foreground, meaning they are actively running and performing tasks.
+
 package threads;
 import java.util.Scanner;
 

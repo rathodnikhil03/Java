@@ -46,8 +46,8 @@ public class StateAndMethods {
         System.out.println(thread3.getPriority()); // Get the thread priority
         thread3.setPriority(Thread.MIN_PRIORITY); // Set the thread priority
         thread3.start();
-        thread3.wait(100);
-        thread3.notify();
+        //thread3.wait(100);
+        //thread3.notify();
 
         
 
