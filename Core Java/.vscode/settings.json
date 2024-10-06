@@ -1,0 +1,21 @@
+{
+    "java.project.sourcePaths": [
+        "variables",
+        "test",
+        "string",
+        "statement",
+        "projects",
+        "other",
+        "operators",
+        "object",
+        "methods",
+        "loops",
+        "keywords",
+        "casting",
+        "basic",
+        "array",
+        "project",
+        "."
+    ],
+    "java.project.referencedLibraries": []
+}
