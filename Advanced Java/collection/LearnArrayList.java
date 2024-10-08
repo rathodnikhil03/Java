@@ -4,7 +4,7 @@
 
 package collection;
 import java.util.ArrayList; 
-
+import java.util.List; 
 public class LearnArrayList {
     
     public static void main(String[] args) {
@@ -12,7 +12,8 @@ public class LearnArrayList {
 
  
         // Create an ArrayList of Strings
-        ArrayList<String> colors = new ArrayList<>();
+        //ArrayList<String> colors = new ArrayList<>();
+        List<String> colors = new ArrayList<>();
 
         // Add elements to the ArrayList
         colors.add("Red");
@@ -34,6 +35,9 @@ public class LearnArrayList {
         // Check if an element is present in the ArrayList
         boolean isYellowPresent = colors.contains("Yellow");
         System.out.println("Is Yellow present? " + isYellowPresent);
+
+
+        
     }
 }
     
