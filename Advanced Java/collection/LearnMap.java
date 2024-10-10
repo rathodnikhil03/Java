@@ -15,7 +15,11 @@ public class LearnMap {
         map.put("Banana", 20);
         map.put("Cherry", 30);
 
-        
+        // if(!map.containsKey("Banana")){
+        //     map.put("Banana", 25);
+        // }
+
+        map.putIfAbsent("Banana", 25);
 
         // Accessing a value using its key
         int value = map.get("Banana");
