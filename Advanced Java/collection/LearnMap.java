@@ -2,6 +2,10 @@ package collection;
 import java.util.HashMap;
 import java.util.Map;
 
+
+class treeset{
+    
+}
 public class LearnMap {
    
 
