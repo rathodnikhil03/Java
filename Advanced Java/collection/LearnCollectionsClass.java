@@ -17,6 +17,8 @@ public class LearnCollectionsClass {
         System.out.println("Sorted list: " + numbers);  
         
         // Reversing
+        // Collections.sort(numbers,Comparator.reverseOrder());
+        // System.out.println("Reversed list: " + numbers);
         Collections.reverse(numbers);
         System.out.println("Reversed list: " + numbers); 
         // Shuffling
