@@ -4,6 +4,7 @@ import java.util.List;
 // Prototype interface
 interface Shape {
     Shape clone();
+
     void draw();
 }
 
@@ -45,8 +46,9 @@ class Rectangle implements Shape {
     }
 }
 
-
-
+// Prototype Design Pattern is a creational pattern that enables the creation of
+// new objects by copying an existing object. This pattern provides a flexible
+// and efficient way to create new objects by cloning existing ones.
 public class PrototypePatternExample {
     public static void main(String[] args) {
         // Create original shapes
