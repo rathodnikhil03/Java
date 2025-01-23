@@ -13,6 +13,8 @@ public class Program2 {
         System.out.println(SumOfNo(123565));
         
     }
+   
+    //The second way to solve this question
     
     public static int SumOfNo(int num){
 
