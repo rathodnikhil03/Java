@@ -17,9 +17,11 @@ public class App
 		ApplicationContext context = new ClassPathXmlApplicationContext("springConfig.xml");
     	
     	Alien a = (Alien) context.getBean("alien");
-    	a.code();
-
-    	   
+      
+        System.out.println(a.getAge());
+        a.code();
+       
+        Desktop d = context.getBean(Desktop.class);
     }
 }
 
