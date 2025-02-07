@@ -21,7 +21,7 @@ public class App
         System.out.println(a.getAge());
         a.code();
        
-        Desktop d = context.getBean(Desktop.class);
+        //Desktop d = context.getBean(Desktop.class);
     }
 }
 

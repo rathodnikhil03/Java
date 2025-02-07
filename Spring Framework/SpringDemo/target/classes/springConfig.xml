@@ -9,7 +9,9 @@
        <bean id="alien" class="com.study.SpringDemo.Alien" autowire="byType ">
        
        <property name="age" value="21" />
-       <property name="com" ref="com1" />
+       <property name="com">
+       <bean id="com1" class="com.study.SpringDemo.Laptop" primary="true">
+	</bean></property>
        
       <!--- <property name = "age" value = "21"></property>-->
       
@@ -27,10 +29,10 @@
        
 	</bean>
 	
-	<bean id="com1" class="com.study.SpringDemo.Laptop" primary="true">
-	</bean>
+	<!--<bean id="com1" class="com.study.SpringDemo.Laptop" primary="true">
+	</bean>-->
 	
-	<bean class="com.study.SpringDemo.Desktop" lazy-init="true">
-	</bean>
+	<!--<bean class="com.study.SpringDemo.Desktop" lazy-init="true">
+	</bean>-->
 	
    </beans>
