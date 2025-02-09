@@ -3,10 +3,10 @@ package com.study.project;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Laptop {
+public class Laptop implements Computer{
 
 	public void complier() {
-		System.out.print("coding..");
+		System.out.print("Laptop is using..");
 		
 		}
 }
