@@ -1,13 +1,15 @@
-package com.study.project;
+package com.study.project.model;
 
  
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-@SpringBootApplication
-public class SpringApp {
+import com.study.project.service.LaptopService;
 
+@SpringBootApplication(scanBasePackages = "com.study.project")
+public class SpringApp {
+ 
 	public static void main(String[] args) {
 	   ConfigurableApplicationContext context = SpringApplication.run(SpringApp.class, args);
 		 
