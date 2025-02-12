@@ -1,17 +1,17 @@
 package com.study.SpringJDBCExample.repository;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
+//import java.sql.ResultSet;
+//import java.sql.SQLException;
+//import java.util.ArrayList;
 import java.util.List;
 
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
-import org.springframework.jdbc.core.RowMapperResultSetExtractor;
-import org.springframework.jdbc.support.SQLExceptionSubclassTranslator;
+//import org.springframework.jdbc.core.RowMapper;
+//import org.springframework.jdbc.core.RowMapperResultSetExtractor;
+//import org.springframework.jdbc.support.SQLExceptionSubclassTranslator;
 import org.springframework.stereotype.Repository;
 
 import com.study.SpringJDBCExample.model.Student;
