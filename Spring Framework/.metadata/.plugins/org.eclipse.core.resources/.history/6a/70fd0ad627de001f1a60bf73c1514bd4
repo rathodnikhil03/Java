@@ -1,8 +1,0 @@
-package com.study.SpringDemo;
-
-public class Alien {
-
-	public void greet() {
-		System.out.println("helloo from alien");
-	}
-}
