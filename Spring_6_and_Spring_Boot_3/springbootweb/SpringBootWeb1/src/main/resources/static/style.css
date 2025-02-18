@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #e9ecef; /* Light gray background */
+	margin: 0;
+	padding: 0;
+}
+
+/* Container Styles */
+.container {
+	max-width: 400px; /* Maximum width of the form */
+	margin: 100px auto; /* Center the form vertically and horizontally */
+	padding: 30px; /* Padding inside the container */
+	background: linear-gradient(135deg, #ffffff, #f8f9fa);
+	/* Gradient background */
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+	/* Deeper shadow for a floating effect */
+	text-align: center; /* Center text inside the container */
+}
+
+/* Heading Styles */
+h2 {
+	color: #343a40; /* Dark gray color for the heading */
+	margin-bottom: 20px; /* Space below the heading */
+	font-size: 24px; /* Larger font size for the heading */
+}
+
+/* Form Styles */
+form {
+	display: flex; /* Use flexbox for layout */
+	flex-direction: column; /* Stack elements vertically */
+}
+
+/* Form Group Styles */
+.form-group {
+	margin-bottom: 20px; /* Space below each form group */
+}
+
+/* Label Styles */
+label {
+	margin-bottom: 5px; /* Space below the label */
+	font-weight: bold; /* Bold text for labels */
+	color: #495057; /* Medium gray color for labels */
+}
+
+/* Input Styles */
+input[type="text"] {
+	padding: 12px; /* Padding inside the input fields */
+	margin-bottom: 10px; /* Space below the input fields */
+	border: 1px solid #ced4da; /* Light gray border */
+	border-radius: 5px; /* Rounded corners for input fields */
+	font-size: 16px; /* Font size for input text */
+	transition: border-color 0.3s, box-shadow 0.3s;
+	/* Smooth transition for border color and shadow */
+}
+
+/* Input Focus Styles */
+input[type="text"]:focus {
+	border-color: #007bff; /* Change border color on focus */
+	outline: none; /* Remove default outline */
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+	padding: 12px; /* Padding inside the button */
+	background-color: #007bff; /* Blue background color */
+	color: white; /* White text color */
+	border: none; /* Remove border */
+	border-radius: 5px; /* Rounded corners for button */
+	cursor: pointer; /* Change cursor to pointer */
+	font-size: 16px; /* Font size for button text */
+	transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+	/* Smooth transition for background color */
+}
+
+/* Submit Button Hover Styles */
+input[type="submit"]:hover {
+	background-color: #0056b3; /* Darker blue on hover */
+	transform: translateY(-2px); /* Lift effect on hover */
+	box-shadow: 0 4px 20px rgba(0, 86, 179, 0.3);
+	/* Shadow effect on hover */
+}
+
+/* Submit Button Active Styles */
+input[type="submit"]:active {
+	transform: translateY(0); /* Reset lift effect on click */
+}
+
+/* Responsive Styles */
+@media ( max-width : 480px) {
+	.container {
+		width: 90%; /* Make the container responsive */
+		padding: 20px; /* Adjust padding for smaller screens */
+	}
+	h2 {
+		font-size: 20px; /* Adjust heading size for smaller screens */
+	}
+	input[type="text"], input[type="submit"] {
+		font-size: 14px; /* Adjust font size for inputs and button */
+	}
+}
