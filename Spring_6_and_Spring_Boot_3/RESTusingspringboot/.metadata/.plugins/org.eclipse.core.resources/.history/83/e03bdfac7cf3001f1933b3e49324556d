@@ -1,0 +1,23 @@
+package com.study.sping_boot_rest;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.study.sping_boot_rest.model.JobPost;
+import com.study.sping_boot_rest.service.JobService;
+
+
+@Controller
+public class JobRestController {
+
+	private JobService service;
+	
+	@GetMapping("jobPosts")
+	public List<JobPost> getAllJobs(){
+		return service.getAllJobs();
+	}
+	
+	
+}

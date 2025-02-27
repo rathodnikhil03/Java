@@ -1,0 +1,5 @@
+package com.study.sping_boot_rest;
+
+public class JobRestController {
+
+}
