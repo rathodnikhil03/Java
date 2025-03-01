@@ -1,0 +1,16 @@
+/* App.css */
+
+/* Reset some default browser styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef2f5;
+}
+
+/* Center the main app container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
