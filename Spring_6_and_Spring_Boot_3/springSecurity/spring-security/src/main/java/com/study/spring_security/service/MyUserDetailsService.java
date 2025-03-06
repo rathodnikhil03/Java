@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.study.spring_security.dao.UserRepo;
 import com.study.spring_security.model.User;
+import com.study.spring_security.model.UserPrincipal;
 
 @Service
 public class MyUserDetailsService implements UserDetailsService{
@@ -26,7 +27,7 @@ public class MyUserDetailsService implements UserDetailsService{
 			throw new UsernameNotFoundException("User 404");
 		}
 		
-		return null;
+		return new UserPrincipal(user);
 	}
 
 	
